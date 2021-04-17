@@ -1,0 +1,5 @@
+cc_import(
+    name = "import",
+    shared_library = "libhello.dylib",
+    visibility = ["//visibility:public"],
+)
